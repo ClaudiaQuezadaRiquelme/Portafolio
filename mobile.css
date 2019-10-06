@@ -1,0 +1,153 @@
+@media all and (max-width: 1280px) {
+    .kois {
+        display: none;
+    }
+
+    #content {
+        margin: 100px;
+    }
+}
+
+@media all and (max-width: 1110px) {
+    .kois {
+        display: none;
+    }
+
+    #content {
+        margin: 60px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .kois {
+        display: none;
+    }
+
+    #content {
+        margin: unset;
+    }
+}
+
+@media all and (max-width: 920px) {
+    .kois {
+        display: none;
+    }
+
+    #content, body, html, .root {
+        margin: unset;
+    }
+}
+
+@media all and (max-width: 862px) {
+    .kois {
+        display: none;
+    }
+
+    html {
+        background-color: #3E3E40;
+    }
+
+    .root {
+        display: block;
+    }
+
+    #content, body, html, .root {
+        margin: unset;
+        padding: unset;
+        width: 100%;
+    }
+
+    .principalText {
+        display: block;
+        text-align: center;
+    }
+
+    .principalTitle, .principalPhrase {
+        display: block;
+    }
+
+    .principalTitle {
+        font-size: 37.4295px;;
+    }
+
+    .principalPhrase {
+        font-size: 25.4295px;
+        line-height: normal;
+    }
+
+    .minigame, .resumenText, .projectImg {
+        border: 10px solid #3E3E40;
+    }
+
+    article, .resumen, .articles, .projectResume {
+        margin: unset;
+        padding: unset;
+    }
+
+    .presentation {
+        display: block;
+    }
+
+    .minigame, .projectImg {
+        text-align: center;
+    }
+
+    .project {
+        display: block;
+    }
+}
+
+@media all and (max-width: 505px) {
+    .kois {
+        display: none;
+    }
+
+    html {
+        background-color: #3E3E40;
+    }
+
+    .root {
+        display: block;
+    }
+
+    #content, body, html, .root {
+        margin: unset;
+        padding: unset;
+        width: 100%;
+    }
+
+    .principalText {
+        display: block;
+        text-align: center;
+    }
+
+    .principalTitle, .principalPhrase {
+        display: block;
+    }
+
+    .principalTitle {
+        font-size: 37.4295px;;
+    }
+
+    .principalPhrase {
+        font-size: 25.4295px;
+        line-height: normal;
+    }
+
+    article, .minigame, .resumen, .resumenText, .articles, .projectImg, .projectResume {
+        margin: unset;
+        padding: unset;
+    }
+
+    .presentation {
+        display: block;
+    }
+
+    .minigame, .projectImg {
+        text-align: center;
+    }
+
+    .project {
+        display: block;
+    }
+}

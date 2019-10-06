@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url('./LeagueSpartan-Bold.otf');
+    }
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./Montserrat-Regular.otf');
+    }
+
+
+* {/* estilos generales */
+    margin: 10px;
+    padding: 10px;
+    /*box-sizing: border-box;*//* para que las cajas no se desborden unas con otras */
+}
+
+body {
+    background-color: black;
+}
+
+.root {
+    display: flex;/* por defecto: uno al lado del otro */
+}
+
+.kois {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#content {
+    background-color: #3E3E40;
+    margin: unset;
+    padding: unset;
+}
+
+.principalText {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.principalTitle {
+    letter-spacing: 0.031em;
+    font-size: 4.28584375em; /*68.5735px;*/
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    white-space: normal;
+}
+
+.subTitle {
+    line-height: 1.26;
+    letter-spacing: 0.029em;
+    font-size: 31.4295px;
+    text-align: left;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.principalPhrase {  
+    line-height: 1.58;
+    letter-spacing: 0.012em;
+    font-size: 1.96434375em; /*31.4295px;*/
+    text-align: center;
+    font-weight: 800;
+    white-space: normal;
+
+}
+
+.principalTitle, .subTitle {
+    color: #F2C5BB;
+    font-family: 'LeagueSpartan';
+}
+
+.presentation, .projectName, .project {
+    display: flex;
+}
+
+.minigame {
+    flex: 7;
+}
+
+.resumen {
+    flex: 8;
+}
+
+.principalPhrase, .resumenText {
+    color: #BF6F6F;
+    font-family: 'Montserrat';
+}
+
+.resumenText {
+    white-space: normal;
+    word-break: break-word;
+    text-align: left;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #d81143;
+    border: 2px solid #d81143;
+    color: #fff;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 34.2867px;
+    text-transform: uppercase;
+    font-family: 'LeagueSpartan';
+}
+
+.projectImg {
+    flex: 6;
+}
+
+.projectResume {
+    flex: 15;
+}
+
+footer {
+    background-color: #8C0327;
+    font-size: 14.2861px;
+    text-transform: uppercase;
+    line-height: 1.73;
+    letter-spacing: 0.187em;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #fff;
+    margin: unset;
+    padding: unset;
+    border: solid #8C0327;
+}
