@@ -33,6 +33,30 @@ body {
     height: 235px;
 }
 
+.cherryBlossomContainer {
+    width: 10vw;
+    height: 80vh;
+	display: flex;
+    justify-content:center;
+    position: relative;
+    padding: unset;
+    margin: unset;
+}
+
+.cherryBlossom {
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    position: relative;
+    padding: unset;
+    margin: unset;
+}
+
+.flower {
+    height: 20px;
+    width: 20px;
+}
+
 #content {
     background-color: #3E3E40;
     margin: unset;
