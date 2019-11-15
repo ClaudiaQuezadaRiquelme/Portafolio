@@ -3,7 +3,6 @@ let globalID = 0;
 let finalPosition = 75; // vh
 let xPos = 0;
 let angle = 0;
-//let start = new Date;
 
 const fadeAndDown = (location, time, elementID, duration) => {
         
@@ -11,8 +10,6 @@ const fadeAndDown = (location, time, elementID, duration) => {
         let setTime = time;
         let elemID = elementID;
         let start = new Date;
-
-        //document.getElementById(elemID).style.opacity = '1';
       
         if (pos == finalPosition || pos > finalPosition ) {
           document.getElementById(elemID).style.opacity = '0';
@@ -20,7 +17,7 @@ const fadeAndDown = (location, time, elementID, duration) => {
         } else {
           setTimeout(() => {
       
-            if (pos >= 30) { //Fade
+            if (pos >= 30) { // Fade
               let _time = new Date - start;
               if(_time < duration) {
                 document.getElementById(elemID).style.opacity = 1 - _time / duration;
@@ -47,7 +44,6 @@ const fadeAndDown = (location, time, elementID, duration) => {
           }, setTime)
       
         }
-      
     }
 
 const stopMove = (ID) => {
