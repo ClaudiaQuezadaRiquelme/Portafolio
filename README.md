@@ -5,4 +5,4 @@
 - [Prototipo](https://res.cloudinary.com/dcloh6s2z/image/upload/v1570405452/Portafolio/EJEMPLO_PORTAFOLIO_x1zt1z.png)
 - [Paleta de Colores](https://color.adobe.com/es/japan-4084153_1280-color-theme-13274488)
 - [Origen de la Paleta de Colores](https://res.cloudinary.com/dcloh6s2z/image/upload/v1570405453/Portafolio/paletaDeColores_vplvqd.png)
-- [Deploy](https://claudiaquezadariquelme.github.io/Portafolio/index.html)
+- [Deploy](https://claudiaquezadariquelme.github.io/Portafolio/src/index.html)
