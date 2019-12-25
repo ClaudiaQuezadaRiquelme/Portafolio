@@ -152,6 +152,11 @@ body {
     flex: 6;
 }
 
+.pImg {
+    height: 235px;
+    width: 235px;
+}
+
 .projectResume {
     flex: 15;
 }
