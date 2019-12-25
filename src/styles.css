@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'LeagueSpartan';
-    src: url('./LeagueSpartan-Bold.otf');
+    src: url('../assets/fonts/LeagueSpartan-Bold.otf');
     }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('./Montserrat-Regular.otf');
+    src: url('../assets/fonts/Montserrat-Regular.otf');
     }
 
 

@@ -21,6 +21,8 @@ const fadeAndDown = (location, time, elementID, duration) => {
               let _time = new Date - start;
               if(_time < duration) {
                 document.getElementById(elemID).style.opacity = 1 - _time / duration;
+                // console.log('1 - _time / duration  =  ' + (1 - _time / duration));
+                
                 
               } else {
                 document.getElementById(elemID).style.opacity = '0';
