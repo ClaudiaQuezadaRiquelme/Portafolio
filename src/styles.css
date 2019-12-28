@@ -15,12 +15,20 @@
     /*box-sizing: border-box;*//* para que las cajas no se desborden unas con otras */
 }
 
+html, body, .root {
+    margin-left: unset;
+    margin-right: unset;
+    padding-left: unset;
+    padding-right: unset;
+}
+
 body {
     background-color: black;
 }
 
 .root {
     display: flex;/* por defecto: uno al lado del otro */
+    justify-content: center;
 }
 
 .kois {
@@ -31,13 +39,18 @@ body {
 
 .koi {
     height: 235px;
+    max-width: 100%;
+    margin-left: unset;
+    margin-right: unset;
+    padding-left: unset;
+    padding-right: unset;
 }
 
 .cherryBlossomContainer {
     width: 10vw;
     height: 80vh;
 	display: flex;
-    justify-content:center;
+    justify-content: center;
     position: relative;
     padding: unset;
     margin: unset;
@@ -65,6 +78,7 @@ body {
     background-color: #3E3E40;
     margin: unset;
     padding: unset;
+    width: 60%;
 }
 
 .principalText {
@@ -80,6 +94,11 @@ body {
     text-align: center;
     font-weight: 400;
     white-space: normal;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
 }
 
 .subTitle {
@@ -107,16 +126,27 @@ body {
     font-family: 'LeagueSpartan';
 }
 
-.presentation, .projectName, .project {
+.subTitle {
+    text-align: center;
+}
+
+.projectName, .project {
     display: flex;
 }
 
-.minigame {
-    flex: 7;
+.presentation {
+    display: block;
+}
+.profilePictureContainer {
+    display: flex;
+    justify-content: center;
 }
 
-.resumen {
-    flex: 8;
+.profilePicture {
+    width: 80%;
+    max-height: 300px;
+    margin: unset;
+    padding: unset;
 }
 
 .principalPhrase, .resumenText {
