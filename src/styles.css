@@ -96,7 +96,7 @@ body {
     white-space: normal;
 }
 
-.menu ul {
+.menu ul, .skillsContainer {
     display: flex;
     justify-content: space-between;
 }
@@ -161,6 +161,10 @@ body {
     font-size: 18.5px;
 }
 
+.skillsContainer {
+    flex-wrap: wrap;
+}
+
 .numberCircle {
     border-radius: 50%;
     width: 36px;
@@ -191,7 +195,7 @@ body {
     flex: 15;
 }
 
-footer {
+footer, .menu {
     background-color: #8C0327;
     font-size: 14.2861px;
     /* text-transform: uppercase; */
