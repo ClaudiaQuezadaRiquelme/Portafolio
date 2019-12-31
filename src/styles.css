@@ -27,7 +27,7 @@ body {
 }
 
 .root {
-    display: flex;/* por defecto: uno al lado del otro */
+    display: flex; /* por defecto: uno al lado del otro */
     justify-content: center;
 }
 
@@ -137,13 +137,14 @@ body {
 .presentation {
     display: block;
 }
+
 .profilePictureContainer {
     display: flex;
     justify-content: center;
 }
 
 .profilePicture {
-    width: 80%;
+    width: 70%;
     max-height: 300px;
     margin: unset;
     padding: unset;
@@ -198,11 +199,8 @@ body {
 footer, .menu {
     background-color: #8C0327;
     font-size: 14.2861px;
-    /* text-transform: uppercase; */
-    /* line-height: 1.73; */
     letter-spacing: 0.187em;
     font-family: 'Montserrat';
-    /* font-weight: 400; */
     color: #fff;
     margin: unset;
     padding: unset;

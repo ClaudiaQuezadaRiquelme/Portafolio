@@ -1,0 +1,47 @@
+.profilePictureContainer {
+    position: relative;
+    overflow: hidden;
+}
+
+.profilePicture {
+    z-index: 2;
+    max-width: 100%;
+    transition: all 2.5s ease-out;
+    -webkit-transition: all 2.5s ease-out;
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15); 
+}
+
+.profilePictureContainer:hover .profilePicture {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+}
+
+.fog {
+    z-index: 4;
+    opacity: 0;
+    position: absolute;
+    width: 100%; /* definir width & height */
+    height: 100%;
+    background: url(../assets/img/niebla.png) no-repeat;
+    transition: all 4s ease-out;
+    -webkit-transition: all 4s ease-out;
+}
+
+#rightFog {
+    right: 0%;
+}
+
+#leftFog {
+    left: 0%;
+}
+
+.profilePictureContainer:hover #rightFog {
+    opacity: 1;
+    right: 30%;
+}
+
+.profilePictureContainer:hover #leftFog {
+    opacity: 1;
+    left: 30%;
+}
