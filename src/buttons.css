@@ -1,7 +1,7 @@
 .button {
     background-color: #40011E; 
     border: none;
-    color: #fff; /* White */ 
+    color: #fff;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
@@ -23,4 +23,38 @@
 .button:hover a {
     cursor: pointer;
     font-size: 21px;
-} 
+}
+
+.btnBouncy {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.btnBouncy:hover {
+    animation-name: bounce;
+    -moz-animation-name: bounce;
+}
+
+@keyframes bounce {
+	0%, 40%, 46%, 50%, 100% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	43% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	48% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
