@@ -1,0 +1,30 @@
+.projectImg {
+    position: relative;
+}
+
+.pImg {
+    z-index: 2;
+    transition: all 3.5s ease-out;
+    -webkit-transition: all 3.5s ease-out;
+}
+
+.pImgColor {
+    z-index: 4;
+    opacity: 0;
+    position: absolute;
+    height: 235px;
+    width: 235px;
+    transition: all 4s ease-out;
+    -webkit-transition: all 4s ease-out;
+    left: 0%;
+    bottom: 0%;
+}
+
+.projectImg:hover .projectImgContainer .pImgColor {
+    opacity: 1;
+    bottom: 50%;
+}
+
+.projectImg:hover .projectImgContainer .pImg{
+    opacity: 0;
+}

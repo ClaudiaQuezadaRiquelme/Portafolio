@@ -188,7 +188,7 @@ a {
     font-family: 'LeagueSpartan';
 }
 
-.projectImg, .pImg {
+.projectImg, .projectImgContainer, .pImg, .pImgColor {
     margin: unset;
     padding: unset;
 }
