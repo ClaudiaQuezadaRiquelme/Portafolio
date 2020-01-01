@@ -1,0 +1,26 @@
+.button {
+    background-color: #40011E; 
+    border: none;
+    color: #fff; /* White */ 
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: default;
+}
+
+.button a {
+    cursor: pointer;
+    transition: all 2.5s ease-out;
+    -webkit-transition: all 2.5s ease-out;
+}
+  
+.button:hover {
+    background-color: #d81143; 
+}
+
+.button:hover a {
+    cursor: pointer;
+    font-size: 21px;
+} 
