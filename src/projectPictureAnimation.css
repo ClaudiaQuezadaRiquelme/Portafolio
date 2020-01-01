@@ -25,6 +25,6 @@
     bottom: 50%;
 }
 
-.projectImg:hover .projectImgContainer .pImg{
+.projectImg:hover .projectImgContainer .pImg {
     opacity: 0;
 }

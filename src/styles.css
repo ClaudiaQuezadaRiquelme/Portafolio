@@ -15,7 +15,7 @@
     /*box-sizing: border-box;*//* para que las cajas no se desborden unas con otras */
 }
 
-html, body, .root {
+html, body, .root, .navigation {
     margin-left: unset;
     margin-right: unset;
     padding-left: unset;
@@ -100,6 +100,12 @@ a {
     font-weight: 400;
     white-space: normal;
 }
+
+/* #menu {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0; /* required */
+/*} */
 
 .menu ul, .skillsContainer {
     display: flex;

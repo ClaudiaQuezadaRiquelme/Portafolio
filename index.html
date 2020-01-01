@@ -12,6 +12,7 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="./src/navMenu.css">
     <link rel="stylesheet" href="./src/profilePictureAnimation.css">
     <link rel="stylesheet" href="./src/projectPictureAnimation.css">
     <link rel="stylesheet" href="./src/buttons.css">
@@ -49,152 +50,161 @@
             </header>
             <nav class="menu">
                 <ul>
-                    <li>Perfil</li>
-                    <li>Habilidades</li>
-                    <li>Proyectos</li>
-                    <li>Contacto</li>
+                    <li><a href="#"><i class="fas fa-fish"></i></a></li>
+                    <li><a href="#Perfil">Perfil</a></li>
+                    <li><a href="#Habilidades">Habilidades</a></li>
+                    <li><a href="#Proyectos">Proyectos</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
                 </ul>
             </nav>
-            <section class="presentation">
-                <div class="profilePictureContainer">
-                    <i class="fog" id="rightFog"></i>
-                    <i class="fog" id="leftFog"></i>
-                    <img class="profilePicture" src="./assets/img/clauSignature-05.png" alt="profile picture">
-                </div>
-                <div class="resumen">
-                    <article>
-                        <h3 class="subTitle">Perfil</h3>
-                        <p class="resumenText">Creatividad, curiosidad y perseverancia son cualidades que busco desarrollar constantemente. Gracias al autoaprendizaje disfruto actualizando conocimientos y aprendo cosas nuevas. Ingresé al mundo tech por mi interés en la música electroacústica y me fascinó su versatilidad. Me interesan proyectos que estimulen el pensamiento analítico, la resolución de problemas y que involucren la creación e innovación.</p>
-                    </article>
-                </div>
-            </section>
+            <div id="Perfil" class="navigation">
+                <section class="presentation">
+                    <div class="profilePictureContainer">
+                        <i class="fog" id="rightFog"></i>
+                        <i class="fog" id="leftFog"></i>
+                        <img class="profilePicture" src="./assets/img/clauSignature-05.png" alt="profile picture">
+                    </div>
+                    <div class="resumen">
+                        <article>
+                            <h3 class="subTitle">Perfil</h3>
+                            <p class="resumenText">Creatividad, curiosidad y perseverancia son cualidades que busco desarrollar constantemente. Gracias al autoaprendizaje disfruto actualizando conocimientos y aprendo cosas nuevas. Ingresé al mundo tech por mi interés en la música electroacústica y me fascinó su versatilidad. Me interesan proyectos que estimulen el pensamiento analítico, la resolución de problemas y que involucren la creación e innovación.</p>
+                        </article>
+                    </div>
+                </section>
+            </div>
 
-            <section class="skills">
-                <div>
-                    <h3 class="subTitle">Habilidades</h3>
+            <div id="Habilidades" class="navigation">
+                <section class="skills">
                     <div>
-                        <ul class="skillsContainer">
-                            <button class="button btnBouncy">Javascript / Jquery</button>
-                            <button class="button btnBouncy">HTML5</button>
-                            <button class="button btnBouncy">CSS3</button>
-                            <button class="button btnBouncy">Balsamiq</button class="button">
-                            <button class="button btnBouncy">Bootstrap</button>
-                            <button class="button btnBouncy">Github / Git</button class="button">
-                            <button class="button btnBouncy">Firebase</button class="button">
-                            <button class="button btnBouncy">Node.js</button class="button">
-                            <button class="button btnBouncy">Metodología Agile</button class="button">
-                            <button class="button btnBouncy">Angular</button class="button">
-                            <button class="button btnBouncy">Puredata</button class="button">
-                            <button class="button btnBouncy">Sibelius</button class="button">
-                            <button class="button btnBouncy">Musescore</button class="button">
-                            <button class="button btnBouncy">C</button>
-                            <button class="button btnBouncy">C#</button class="button">
-                            <button class="button btnBouncy">Python</button class="button">
-                            <button class="button btnBouncy">Phaser</button class="button">
-                        </ul>
-                    </div>  
-                </div>
-            </section>
+                        <h3 class="subTitle">Habilidades</h3>
+                        <div>
+                            <ul class="skillsContainer">
+                                <button class="button btnBouncy">Javascript / Jquery</button>
+                                <button class="button btnBouncy">HTML5</button>
+                                <button class="button btnBouncy">CSS3</button>
+                                <button class="button btnBouncy">Balsamiq</button class="button">
+                                <button class="button btnBouncy">Bootstrap</button>
+                                <button class="button btnBouncy">Github / Git</button class="button">
+                                <button class="button btnBouncy">Firebase</button class="button">
+                                <button class="button btnBouncy">Node.js</button class="button">
+                                <button class="button btnBouncy">Metodología Agile</button class="button">
+                                <button class="button btnBouncy">Angular</button class="button">
+                                <button class="button btnBouncy">Puredata</button class="button">
+                                <button class="button btnBouncy">Sibelius</button class="button">
+                                <button class="button btnBouncy">Musescore</button class="button">
+                                <button class="button btnBouncy">C</button>
+                                <button class="button btnBouncy">C#</button class="button">
+                                <button class="button btnBouncy">Python</button class="button">
+                                <button class="button btnBouncy">Phaser</button class="button">
+                            </ul>
+                        </div>  
+                    </div>
+                </section>
+            </div>
             
-            <section>
-                <div class="articles">
-                    <article class="project">
-                        <div class="projectImg">
-                            <div class="projectImgContainer">
-                                <img class="pImgColor" src="./assets/img/BurgerClownQueen.png" alt="IMAGEN">
-                                <img class="pImg" src="./assets/img/BurgerClownQueenFILTER.png" alt="IMAGEN">
+            <div id="Proyectos" class="navigation">
+                <section>
+                    <div class="articles">
+                        <article class="project">
+                            <div class="projectImg">
+                                <div class="projectImgContainer">
+                                    <img class="pImgColor" src="./assets/img/BurgerClownQueen.png" alt="IMAGEN">
+                                    <img class="pImg" src="./assets/img/BurgerClownQueenFILTER.png" alt="IMAGEN">
+                                </div>
                             </div>
-                        </div>
-                        <div class="projectResume">
-                            <div class="projectName">
-                                <div class="numberCircle">1</div>
-                                <h3 class="subTitle">Burger Clown Queens<h3>
+                            <div class="projectResume">
+                                <div class="projectName">
+                                    <div class="numberCircle">1</div>
+                                    <h3 class="subTitle">Burger Clown Queens<h3>
+                                </div>
+                                <p class="resumenText">Burger Clown Queens es una aplicación diseñada para la gestión de pedidos de vuestra hamburguesería. Permite visualizar el menú, ver el total del pedido, cambiar algún elemento antes de confirmar y enviar a cocina para su preparación.</p>
+                                <ul>
+                                    <button class="button"><a href="https://github.com/ClaudiaQuezadaRiquelme/SCL010-Burger-Queen">Github</a></button>
+                                    <button class="button"><a href="https://burguerqueen-ff21a.firebaseapp.com/">Demo</a></button>
+                                </ul>
                             </div>
-                            <p class="resumenText">Burger Clown Queens es una aplicación diseñada para la gestión de pedidos de vuestra hamburguesería. Permite visualizar el menú, ver el total del pedido, cambiar algún elemento antes de confirmar y enviar a cocina para su preparación.</p>
-                            <ul>
-                                <button class="button"><a href="https://github.com/ClaudiaQuezadaRiquelme/SCL010-Burger-Queen">Github</a></button>
-                                <button class="button"><a href="https://burguerqueen-ff21a.firebaseapp.com/">Demo</a></button>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-                <div class="articles">
-                    <article class="project">
-                        <div class="projectImg">
-                            <div class="projectImgContainer">
-                                <img class="pImgColor" src="./assets/img/ViewNOWtransparentLogo.png" alt="IMAGEN">
-                                <img class="pImg" src="./assets/img/ViewNOWtransparentFILTER2.png" alt="IMAGEN">
+                        </article>
+                    </div>
+                    <div class="articles">
+                        <article class="project">
+                            <div class="projectImg">
+                                <div class="projectImgContainer">
+                                    <img class="pImgColor" src="./assets/img/ViewNOWtransparentLogo.png" alt="IMAGEN">
+                                    <img class="pImg" src="./assets/img/ViewNOWtransparentFILTER2.png" alt="IMAGEN">
+                                </div>
                             </div>
-                        </div>
-                        <div class="projectResume">
-                            <div class="projectName">
-                                <div class="numberCircle">2</div>
-                                <h3 class="subTitle">View NOW</h3>
+                            <div class="projectResume">
+                                <div class="projectName">
+                                    <div class="numberCircle">2</div>
+                                    <h3 class="subTitle">View NOW</h3>
+                                </div>
+                                <p class="resumenText">Es una aplicación web que brinda a los usuarios información sobre las películas más valoradas por la crítica. Permite buscar películas y sugiere alguna según estado de ánimo y tiempo disponible. Se usaron criterios de diseño inclusivo, por ejemplo considerando capacidad visual de distintos tipos de daltonismo.</p>
+                                <ul>
+                                    <button class="button"><a href="https://github.com/carolgmonteiro/SCL010-hackathon-peliculas">Github</a></button>
+                                    <button class="button"><a href="https://carolgmonteiro.github.io/SCL010-hackathon-peliculas/src/index.html">Demo</a></button>
+                                </ul>
                             </div>
-                            <p class="resumenText">Es una aplicación web que brinda a los usuarios información sobre las películas más valoradas por la crítica. Permite buscar películas y sugiere alguna según estado de ánimo y tiempo disponible. Se usaron criterios de diseño inclusivo, por ejemplo considerando capacidad visual de distintos tipos de daltonismo.</p>
-                            <ul>
-                                <button class="button"><a href="https://github.com/carolgmonteiro/SCL010-hackathon-peliculas">Github</a></button>
-                                <button class="button"><a href="https://carolgmonteiro.github.io/SCL010-hackathon-peliculas/src/index.html">Demo</a></button>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-                <div class="articles">
-                    <article class="project">
-                        <div class="projectImg">
-                            <div class="projectImgContainer">
-                                <img class="pImgColor" src="./assets/img/matchgoalLogoLetra.png" alt="IMAGEN">
-                                <img class="pImg" src="./assets/img/matchgoalLogoLetraFILTER.png" alt="IMAGEN">
+                        </article>
+                    </div>
+                    <div class="articles">
+                        <article class="project">
+                            <div class="projectImg">
+                                <div class="projectImgContainer">
+                                    <img class="pImgColor" src="./assets/img/matchgoalLogoLetra.png" alt="IMAGEN">
+                                    <img class="pImg" src="./assets/img/matchgoalLogoLetraFILTER.png" alt="IMAGEN">
+                                </div>
                             </div>
-                        </div>
-                        <div class="projectResume">
-                            <div class="projectName">
-                                <div class="numberCircle">3</div>
-                                <h3 class="subTitle">Match Goal</h3>
+                            <div class="projectResume">
+                                <div class="projectName">
+                                    <div class="numberCircle">3</div>
+                                    <h3 class="subTitle">Match Goal</h3>
+                                </div>
+                                <p class="resumenText">Red social que permite participar de partidos de fútbol y unirse a equipos con quienes comparten la misma pasión. La aplicación permite crear y acceder a tu cuenta y crear, editar, borrar y "likear" publicaciones.</p>
+                                <ul>
+                                    <button class="button"><a href="https://github.com/VillarrealScarlette/SCL010-Social-Network">Github</a></button>
+                                    <button class="button"><a href="https://villarrealscarlette.github.io/SCL010-Social-Network/src/index.html">Demo</a></button>
+                                </ul>
                             </div>
-                            <p class="resumenText">Red social que permite participar de partidos de fútbol y unirse a equipos con quienes comparten la misma pasión. La aplicación permite crear y acceder a tu cuenta y crear, editar, borrar y "likear" publicaciones.</p>
-                            <ul>
-                                <button class="button"><a href="https://github.com/VillarrealScarlette/SCL010-Social-Network">Github</a></button>
-                                <button class="button"><a href="https://villarrealscarlette.github.io/SCL010-Social-Network/src/index.html">Demo</a></button>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-                <div class="articles">
-                    <article class="project">
-                        <div class="projectImg">
-                            <div class="projectImgContainer">
-                                <img class="pImgColor" src="./assets/img/Mapbox-MexicoStoresCortado.png" alt="IMAGEN">
-                                <img class="pImg" src="./assets/img/Mapbox-MexicoStoresCortadoFILTER.png" alt="IMAGEN">
+                        </article>
+                    </div>
+                    <div class="articles">
+                        <article class="project">
+                            <div class="projectImg">
+                                <div class="projectImgContainer">
+                                    <img class="pImgColor" src="./assets/img/Mapbox-MexicoStoresCortado.png" alt="IMAGEN">
+                                    <img class="pImg" src="./assets/img/Mapbox-MexicoStoresCortadoFILTER.png" alt="IMAGEN">
+                                </div>
                             </div>
-                        </div>
-                        <div class="projectResume">
-                            <div class="projectName">
-                                <div class="numberCircle">4</div>
-                                <h3 class="subTitle">Mexico Stores</h3>
+                            <div class="projectResume">
+                                <div class="projectName">
+                                    <div class="numberCircle">4</div>
+                                    <h3 class="subTitle">Mexico Stores</h3>
+                                </div>
+                                <p class="resumenText">Aplicación que permite visualizar un mapa mundial enfocado en la Ciudad de Mexico, para poder visualizar la ubicación de tiendas de interés, agregarlas en una lista de tiendas favoritas y posteriormente eliminarlas.</p>
+                                <ul>
+                                    <button class="button"><a href="https://github.com/ClaudiaQuezadaRiquelme/Mapbox-MexicoStores">Github</a></button>
+                                    <button class="button"><a href="https://mapbox-mexico-stores.herokuapp.com/">Demo</a></button>
+                                </ul>
                             </div>
-                            <p class="resumenText">Aplicación que permite visualizar un mapa mundial enfocado en la Ciudad de Mexico, para poder visualizar la ubicación de tiendas de interés, agregarlas en una lista de tiendas favoritas y posteriormente eliminarlas.</p>
-                            <ul>
-                                <button class="button"><a href="https://github.com/ClaudiaQuezadaRiquelme/Mapbox-MexicoStores">Github</a></button>
-                                <button class="button"><a href="https://mapbox-mexico-stores.herokuapp.com/">Demo</a></button>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-            </section>
-            
-            <footer>
-                <h4>INFORMACIÓN DE CONTACTO</h4>
-                <nav class="footerContent">
-                    <div class="contactIcon"><a class="link" href="https://github.com/ClaudiaQuezadaRiquelme/"><i class="fab fa-github-square"></i></a></div>
-                    <div class="contactIcon"><a class="link" href="https://www.linkedin.com/in/claudia-andrea-quezada-riquelme/"><i class="fab fa-linkedin"></i></a></div>
-                    <div class="contactIcon"><a class="link" href="#"><i class="far fa-file-pdf"></i></a></div>
-                    <div>
-                        <p class="contactText">+569 4352 8810</p>
-                        <p class="contactText">ca.quezada.riquelme@gmail.com</p>
-                    </div>     
-                </nav>
-            </footer>
+                        </article>
+                    </div>
+                </section>
+            </div>
+
+            <div id="Contacto" class="navigation">
+                <footer>
+                    <h4>INFORMACIÓN DE CONTACTO</h4>
+                    <nav class="footerContent">
+                        <div class="contactIcon"><a class="link" href="https://github.com/ClaudiaQuezadaRiquelme/"><i class="fab fa-github-square"></i></a></div>
+                        <div class="contactIcon"><a class="link" href="https://www.linkedin.com/in/claudia-andrea-quezada-riquelme/"><i class="fab fa-linkedin"></i></a></div>
+                        <div class="contactIcon"><a class="link" href="#"><i class="far fa-file-pdf"></i></a></div>
+                        <div>
+                            <p class="contactText">+569 4352 8810</p>
+                            <p class="contactText">ca.quezada.riquelme@gmail.com</p>
+                        </div>     
+                    </nav>
+                </footer>
+            </div>
         </div>
         <div class="kois">
             <div>

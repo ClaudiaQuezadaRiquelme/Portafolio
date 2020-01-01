@@ -1,0 +1,33 @@
+.menu {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0; /* required */
+    z-index: 5;
+}
+
+.menu ul {
+    margin-top: unset;
+    margin-bottom: unset;
+    padding-top: unset;
+    padding-bottom: unset;
+    list-style-type: none;
+}
+
+.menu ul li {
+    transition: all 2.5s ease-out;
+    -webkit-transition: all 2.5s ease-out;
+}
+
+.menu ul li a i {
+    margin: unset;
+    padding: unset;
+}
+
+.menu ul li:hover {
+    font-size: 21px;
+}
+
+.navigation { /* Evita que la barra de navegación quede sobre el título de la sección */
+    margin-top: 60px;
+    padding-top: 60px;
+}
