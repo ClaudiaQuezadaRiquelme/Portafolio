@@ -6,8 +6,6 @@
 }
 
 .menu ul {
-    margin: unset;
-    padding: unset;
     list-style-type: none;
 }
 
@@ -18,14 +16,8 @@
     -webkit-transition: all 2.5s ease-out;
 }
 
-.menu ul li a i {
-    margin: unset;
-    padding: unset;
-}
-
 .menu ul li:hover {
     background-color: #d81143;
-    
 }
 
 .navigation { /* Evita que la barra de navegación quede sobre el título de la sección */

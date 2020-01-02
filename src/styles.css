@@ -31,13 +31,15 @@ a {
     color: #fff;
 }
 
-.root {
+.root, .cherryBlossomContainer, .kois, .cherryBlossom, .principalText, .menu ul, .skillsContainer, .projectName, .project, .profilePictureContainer, .footerContent {
     display: flex; /* por defecto: uno al lado del otro */
+}
+
+.root, .cherryBlossomContainer, .profilePictureContainer {
     justify-content: center;
 }
 
 .kois {
-    display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
@@ -51,23 +53,23 @@ a {
     padding-right: unset;
 }
 
+.cherryBlossomContainer, .cherryBlossom, #content, .profilePicture, .projectImg, .projectImgContainer, .pImg, .pImgColor, footer, .menu, .contactIcon, .link, .contactText, .menu ul, .menu ul li a i {
+    padding: unset;
+    margin: unset;
+}
+
+.cherryBlossomContainer, .cherryBlossom {
+    position: relative;
+}
+
 .cherryBlossomContainer {
     width: 10vw;
     height: 80vh;
-	display: flex;
-    justify-content: center;
-    position: relative;
-    padding: unset;
-    margin: unset;
 }
 
 .cherryBlossom {
     width: 40vw;
     height: 50vh;
-    display: flex;
-    position: relative;
-    padding: unset;
-    margin: unset;
 }
 
 #cherryBlossom12, #cherryBlossom11, #cherryBlossom10, #cherryBlossom9, #cherryBlossom8, #cherryBlossom7, #cherryBlossom6, #cherryBlossom5, #cherryBlossom4, #cherryBlossom3, #cherryBlossom2, #cherryBlossom1 {
@@ -81,13 +83,10 @@ a {
 
 #content {
     background-color: #3E3E40;
-    margin: unset;
-    padding: unset;
     width: 60%;
 }
 
 .principalText {
-    display: flex;
     flex-flow: column nowrap;
     align-items: center;
 }
@@ -101,14 +100,7 @@ a {
     white-space: normal;
 }
 
-/* #menu {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0; /* required */
-/*} */
-
 .menu ul, .skillsContainer {
-    display: flex;
     justify-content: space-between;
 }
 
@@ -141,24 +133,13 @@ a {
     text-align: center;
 }
 
-.projectName, .project {
-    display: flex;
-}
-
 .presentation {
     display: block;
-}
-
-.profilePictureContainer {
-    display: flex;
-    justify-content: center;
 }
 
 .profilePicture {
     width: 70%;
     max-height: 300px;
-    margin: unset;
-    padding: unset;
 }
 
 .principalPhrase, .resumenText {
@@ -194,11 +175,6 @@ a {
     font-family: 'LeagueSpartan';
 }
 
-.projectImg, .projectImgContainer, .pImg, .pImgColor {
-    margin: unset;
-    padding: unset;
-}
-
 .projectImg {
     flex: 6;
 }
@@ -218,8 +194,6 @@ footer, .menu {
     letter-spacing: 0.187em;
     font-family: 'Montserrat';
     color: #fff;
-    margin: unset;
-    padding: unset;
 }
 
 footer {
@@ -227,20 +201,11 @@ footer {
 }
 
 .footerContent {
-    display: flex;
     justify-content: right;
 }
 
 .contactIcon {
     font-size: 50px;
-    margin: unset;
-    padding: unset;
-    
-}
-
-.link {
-    margin: unset;
-    padding: unset;
 }
 
 .link:hover i {
@@ -248,8 +213,6 @@ footer {
 }
 
 .contactText {
-    margin: unset;
-    padding: unset;
     justify-content: space-between;
     flex-direction: row;
 }
