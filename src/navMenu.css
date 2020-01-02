@@ -16,7 +16,7 @@
     -webkit-transition: all 2.5s ease-out;
 }
 
-.menu ul li:hover {
+.menu ul li:hover, .menu ul li:active {
     background-color: #d81143;
 }
 
