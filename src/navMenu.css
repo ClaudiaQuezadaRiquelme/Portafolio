@@ -24,10 +24,13 @@
 }
 
 .menu ul li:hover {
-    font-size: 21px;
+    background-color: #d81143;
+    
 }
 
 .navigation { /* Evita que la barra de navegación quede sobre el título de la sección */
     margin-top: 60px;
     padding-top: 60px;
+    margin-bottom: unset;
+    padding-bottom: unset;
 }

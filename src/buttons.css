@@ -12,17 +12,10 @@
 
 .button a {
     cursor: pointer;
-    transition: all 2.5s ease-out;
-    -webkit-transition: all 2.5s ease-out;
 }
   
 .button:hover {
     background-color: #d81143; 
-}
-
-.button:hover a {
-    cursor: pointer;
-    font-size: 21px;
 }
 
 .btnBouncy {

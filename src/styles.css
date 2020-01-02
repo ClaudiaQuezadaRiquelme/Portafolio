@@ -220,6 +220,9 @@ footer, .menu {
     color: #fff;
     margin: unset;
     padding: unset;
+}
+
+footer {
     border: solid #8C0327;
 }
 
