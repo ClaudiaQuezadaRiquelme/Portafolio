@@ -16,7 +16,7 @@
     -webkit-transition: all 2.5s ease-out;
 }
   
-.button:hover, .sklButton:hover {
+.button:hover, .sklButton:hover, .button:active, .sklButton:active {
     background-color: #d81143; 
 }
 
@@ -31,7 +31,7 @@
     -webkit-animation-iteration-count: infinite;
 }
 
-.btnBouncy:hover {
+.btnBouncy:hover, .btnBouncy:active {
     animation-name: bounce;
     -moz-animation-name: bounce;
 }

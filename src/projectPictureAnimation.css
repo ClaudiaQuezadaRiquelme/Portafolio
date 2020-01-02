@@ -20,11 +20,11 @@
     bottom: 0%;
 }
 
-.projectImg:hover .projectImgContainer .pImgColor {
+.projectImg:hover .projectImgContainer .pImgColor, .projectImg:active .projectImgContainer .pImgColor {
     opacity: 1;
     bottom: 50%;
 }
 
-.projectImg:hover .projectImgContainer .pImg {
+.projectImg:hover .projectImgContainer .pImg, .projectImg:active .projectImgContainer .pImg {
     opacity: 0;
 }

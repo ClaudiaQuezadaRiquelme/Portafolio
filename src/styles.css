@@ -208,7 +208,7 @@ footer {
     font-size: 50px;
 }
 
-.link:hover i {
+.link:hover i, .link:active i {
     color: #F2C5BB;
 }
 
