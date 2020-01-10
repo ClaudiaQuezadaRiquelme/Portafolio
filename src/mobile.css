@@ -1,44 +1,36 @@
-@media all and (max-width: 1280px) {
-    .kois {
-        display: none;
-    }
-
-    #content {
-        margin: 100px;
-    }
-}
-
-@media all and (max-width: 1110px) {
-    .kois {
-        display: none;
-    }
-
-    #content {
-        margin: 60px;
-    }
-}
-
-@media all and (max-width: 1024px) {
-    .kois {
-        display: none;
-    }
-
-    #content {
+@media all and (max-width: 1114px) {
+    .kois div {
+        padding: unset;
         margin: unset;
+    }
+    .project {
+        margin: unset;
+        padding: unset;
+    }
+    .projectResume {
+        padding-left: 70px;
+    }
+}
+
+@media all and (max-width: 1054px) {
+    .kois {
+        display: none;
+    }
+    #content {
+        width: 85%;
     }
 }
 
 @media all and (max-width: 920px) {
-    .kois {
-        display: none;
-    }
 
     #content, body, html, .root {
         margin: unset;
+        padding: unset;
+        width: 100%;
     }
 }
 
-@media all and (max-width: 862px) {
+@media all and (max-width: 707px) {
     .kois {
         display: none;
     }
@@ -66,10 +58,6 @@
         display: block;
     }
 
-    .principalTitle {
-        font-size: 37.4295px;;
-    }
-
     .principalPhrase {
         font-size: 25.4295px;
         line-height: normal;
@@ -94,6 +82,24 @@
 
     .project {
         display: block;
+    }
+
+    .projectImgContainer {
+        padding-top: 40px;
+    }
+}
+
+@media all and (max-width: 635px) {
+    .footerContent {
+        flex-direction: column;
+    }
+
+    .contactIconContainer {
+        justify-content: right;
+    }
+
+    .contactInfoContainer {
+        text-align: right;
     }
 }
 

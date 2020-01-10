@@ -182,6 +182,7 @@ a {
 .pImg {
     height: 235px;
     width: 235px;
+    /* width: 100%; */
 }
 
 .projectResume {
@@ -202,6 +203,12 @@ footer {
 
 .footerContent {
     justify-content: right;
+}
+
+.contactIconContainer {
+    display: flex;
+    margin: unset;
+    padding: unset;
 }
 
 .contactIcon {

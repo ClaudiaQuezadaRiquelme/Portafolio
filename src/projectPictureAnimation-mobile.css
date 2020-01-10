@@ -1,0 +1,12 @@
+@media all and (max-width: 707px) {
+    .pImgColor {
+        left: auto;
+        bottom: auto;
+    }
+
+    .projectImg:hover .projectImgContainer .pImgColor, .projectImg:active .projectImgContainer .pImgColor {
+        opacity: 1;
+        bottom: auto;
+    }
+}
+

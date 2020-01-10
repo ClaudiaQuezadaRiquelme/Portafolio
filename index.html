@@ -13,9 +13,12 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="./src/styles.css">
     <link rel="stylesheet" href="./src/navMenu.css">
+    <link rel="stylesheet" href="./src/navMenu-mobile.css">
     <link rel="stylesheet" href="./src/profilePictureAnimation.css">
     <link rel="stylesheet" href="./src/projectPictureAnimation.css">
+    <link rel="stylesheet" href="./src/projectPictureAnimation-mobile.css">
     <link rel="stylesheet" href="./src/buttons.css">
+    <link rel="stylesheet" href="./src/buttons-mobile.css">
     <link rel="stylesheet" href="./src/mobile.css">
      
 </head>
@@ -95,7 +98,7 @@
                                 <button class="sklButton btnBouncy">C</button>
                                 <button class="sklButton btnBouncy">C#</button>
                                 <button class="sklButton btnBouncy">Python</button>
-                                <button class="sklButton btnBouncy">Phaser</button>
+                                <button class="sklButton btnBouncy">Phaser 3</button>
                             </ul>
                         </div>  
                     </div>
@@ -118,7 +121,7 @@
                                     <h3 class="subTitle">Burger Clown Queens<h3>
                                 </div>
                                 <p class="resumenText">Burger Clown Queens es una aplicación diseñada para la gestión de pedidos de vuestra hamburguesería. Permite visualizar el menú, ver el total del pedido, cambiar algún elemento antes de confirmar y enviar a cocina para su preparación.</p>
-                                <ul>
+                                <ul class="buttonContainer">
                                     <button class="button"><a href="https://github.com/ClaudiaQuezadaRiquelme/SCL010-Burger-Queen">Github</a></button>
                                     <button class="button"><a href="https://burguerqueen-ff21a.firebaseapp.com/">Demo</a></button>
                                 </ul>
@@ -139,7 +142,7 @@
                                     <h3 class="subTitle">View NOW</h3>
                                 </div>
                                 <p class="resumenText">Es una aplicación web que brinda a los usuarios información sobre las películas más valoradas por la crítica. Permite buscar películas y sugiere alguna según estado de ánimo y tiempo disponible. Se usaron criterios de diseño inclusivo, por ejemplo considerando capacidad visual de distintos tipos de daltonismo.</p>
-                                <ul>
+                                <ul class="buttonContainer">
                                     <button class="button"><a href="https://github.com/carolgmonteiro/SCL010-hackathon-peliculas">Github</a></button>
                                     <button class="button"><a href="https://carolgmonteiro.github.io/SCL010-hackathon-peliculas/src/index.html">Demo</a></button>
                                 </ul>
@@ -160,7 +163,7 @@
                                     <h3 class="subTitle">Match Goal</h3>
                                 </div>
                                 <p class="resumenText">Red social que permite participar de partidos de fútbol y unirse a equipos con quienes comparten la misma pasión. La aplicación permite crear y acceder a tu cuenta y crear, editar, borrar y "likear" publicaciones.</p>
-                                <ul>
+                                <ul class="buttonContainer">
                                     <button class="button"><a href="https://github.com/VillarrealScarlette/SCL010-Social-Network">Github</a></button>
                                     <button class="button"><a href="https://villarrealscarlette.github.io/SCL010-Social-Network/src/index.html">Demo</a></button>
                                 </ul>
@@ -181,7 +184,7 @@
                                     <h3 class="subTitle">Mexico Stores</h3>
                                 </div>
                                 <p class="resumenText">Aplicación que permite visualizar un mapa mundial enfocado en la Ciudad de Mexico, para poder visualizar la ubicación de tiendas de interés, agregarlas en una lista de tiendas favoritas y posteriormente eliminarlas.</p>
-                                <ul>
+                                <ul class="buttonContainer">
                                     <button class="button"><a href="https://github.com/ClaudiaQuezadaRiquelme/Mapbox-MexicoStores">Github</a></button>
                                     <button class="button"><a href="https://mapbox-mexico-stores.herokuapp.com/">Demo</a></button>
                                 </ul>
@@ -195,13 +198,16 @@
                 <footer>
                     <h4>INFORMACIÓN DE CONTACTO</h4>
                     <nav class="footerContent">
-                        <div class="contactIcon"><a class="link" href="https://github.com/ClaudiaQuezadaRiquelme/"><i class="fab fa-github-square"></i></a></div>
-                        <div class="contactIcon"><a class="link" href="https://www.linkedin.com/in/claudia-andrea-quezada-riquelme/"><i class="fab fa-linkedin"></i></a></div>
-                        <div class="contactIcon"><a class="link" href="./assets/doc/Curriculum Frontend Developer.pdf"><i class="far fa-file-pdf"></i></a></div>
-                        <div>
+                        <div class="contactIconContainer">
+                            <div class="contactIcon"><a class="link" href="https://github.com/ClaudiaQuezadaRiquelme/"><i class="fab fa-github-square"></i></a></div>
+                            <div class="contactIcon"><a class="link" href="https://www.linkedin.com/in/claudia-andrea-quezada-riquelme/"><i class="fab fa-linkedin"></i></a></div>
+                            <div class="contactIcon"><a class="link" href="./assets/doc/Curriculum Frontend Developer.pdf"><i class="far fa-file-pdf"></i></a></div>
+                        </div> 
+                        <div class="contactInfoContainer">
                             <p class="contactText">+569 4352 8810</p>
                             <p class="contactText">ca.quezada.riquelme@gmail.com</p>
-                        </div>     
+                        </div>
+                          
                     </nav>
                 </footer>
             </div>

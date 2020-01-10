@@ -1,0 +1,32 @@
+@media all and (max-width: 1254px) {
+    .button {
+        padding: 15px 20px;
+    } 
+}
+
+@media all and (max-width: 1174px) {
+    .button {
+        padding: 10px 15px;
+    }
+    
+}
+
+@media all and (max-width: 1141px) {
+    .buttonContainer {
+        padding: unset;
+        margin: unset;
+    }
+}
+
+@media all and (max-width: 920px) {
+    .buttonContainer {
+        text-align: right;
+    }
+}
+
+@media all and (max-width: 643px) {
+    .buttonContainer {
+        text-align: center;
+    }
+}
+
