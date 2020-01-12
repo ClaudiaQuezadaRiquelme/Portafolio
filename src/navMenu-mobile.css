@@ -19,6 +19,13 @@
     }
 }
 
+@media all and (max-width: 1054px) {
+    .menu {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
 @media all and (max-width: 920px) {
     .menu ul li {
         padding: 20px;

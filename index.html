@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./src/mobile.css">
     <link rel="stylesheet" href="./src/navMenu.css">
     <link rel="stylesheet" href="./src/navMenu-mobile.css">
+    <link rel="stylesheet" href="./src/navBurgerMenu.css">
     <link rel="stylesheet" href="./src/profilePictureAnimation.css">
     <link rel="stylesheet" href="./src/profilePictureAnimation-mobile.css">
     <link rel="stylesheet" href="./src/projectPictureAnimation.css">
@@ -52,6 +53,20 @@
                 <h1 class="principalTitle">CLAUDIA QUEZADA</h1>
                 <h3 class="principalPhrase">Frontend Developer</h3>
             </header>
+            <div class="openBurgerMenu">
+                <a href="#"><i class="fas fa-fish"></i></a>
+                <span class="burgerIcon" onclick="openNav()"><i class="fas fa-bars"></i></span>
+            </div>
+            <nav id="myBurgerMenu" class="burgerMenu">
+                <ul>
+                    <li><a class="closeBurgerMenu" href="javascript:void(0)" onclick="closeNav()"><i class="fas fa-times"></i></a></li>
+                    <li><a href="#"><i class="fas fa-fish"></i></a></li>
+                    <li><a href="#Perfil">Perfil</a></li>
+                    <li><a href="#Habilidades">Habilidades</a></li>
+                    <li><a href="#Proyectos">Proyectos</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
+                </ul>
+            </nav>
             <nav class="menu">
                 <ul>
                     <li><a href="#"><i class="fas fa-fish"></i></a></li>
@@ -239,5 +254,6 @@
     </div>
     
     <script src="./src/koiAnimation.js"></script>
+    <script src="./src/navBurgerMenuAnimation.js"></script>
 </body>
 </html>
