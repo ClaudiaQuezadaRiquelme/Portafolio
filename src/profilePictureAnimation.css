@@ -1,6 +1,8 @@
 .profilePictureContainer {
     position: relative;
     overflow: hidden;
+    transform: scaley(1.15); /* para quedar del tamaño de .profilePicture */
+    -webkit-transform: scaley(1.15); 
 }
 
 .profilePicture {
@@ -12,9 +14,9 @@
     -webkit-transform: scale(1.15); 
 }
 
-.profilePictureContainer:hover .profilePicture, .profilePictureContainer:active .profilePicture {
-    transform: scale(0.8);
-    -webkit-transform: scale(0.8);
+.profilePictureContainer:hover .fog, .profilePictureContainer:hover .profilePicture, .profilePictureContainer:active .fog, .profilePictureContainer:active .profilePicture {
+    transform: scale(0.85);
+    -webkit-transform: scale(0.85);
 }
 
 .fog {

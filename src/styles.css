@@ -53,7 +53,7 @@ a {
     padding-right: unset;
 }
 
-.cherryBlossomContainer, .cherryBlossom, #content, .profilePicture, .projectImg, .projectImgContainer, .pImg, .pImgColor, footer, .menu, .contactIcon, .link, .contactText, .menu ul, .menu ul li a i {
+.cherryBlossomContainer, .cherryBlossom, #content, .profilePictureContainer .fog, .profilePicture, .projectImg, .projectImgContainer, .pImg, .pImgColor, footer, .menu, .contactIcon, .link, .contactText, .menu ul, .menu ul li a i {
     padding: unset;
     margin: unset;
 }
@@ -138,7 +138,7 @@ a {
 }
 
 .profilePicture {
-    width: 70%;
+    width: 80%;
     max-height: 300px;
 }
 
@@ -209,6 +209,10 @@ footer {
     display: flex;
     margin: unset;
     padding: unset;
+}
+
+.contactIconContainer .contactIcon:nth-child(4) {
+    display: none;
 }
 
 .contactIcon {

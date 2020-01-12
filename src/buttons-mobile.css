@@ -30,3 +30,9 @@
     }
 }
 
+@media all and (max-width: 620px) {
+    .sklButton {
+        padding: 10px 15px;
+    }
+}
+

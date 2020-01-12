@@ -1,0 +1,40 @@
+@media all and (max-width: 1191px) {
+    .profilePictureContainer:hover .fog, .profilePictureContainer:hover .profilePicture, .profilePictureContainer:active .fog,  .profilePictureContainer:active .profilePicture {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+}
+
+@media all and (max-width: 755px) {
+    .profilePictureContainer {
+        transform: scaley(1.18); /* para quedar del tamaño de .profilePicture */
+        -webkit-transform: scaley(1.18); 
+    }
+    .profilePictureContainer:hover .fog, .profilePictureContainer:hover .profilePicture, .profilePictureContainer:active .fog, .profilePictureContainer:active .profilePicture {
+        transform: scale(1.18);
+        -webkit-transform: scale(1.18);
+    }
+}
+
+@media all and (max-width: 665px) {
+    .profilePictureContainer {
+        padding: unset;
+        margin: unset;
+    }
+
+    .profilePicture {
+        transform: unset;
+        -webkit-transform: unset;
+    }
+
+    .profilePictureContainer:hover .fog, .profilePictureContainer:hover .profilePicture, .profilePictureContainer:active .fog, .profilePictureContainer:active .profilePicture {
+        transform: unset;
+        -webkit-transform: unset;
+    }
+}
+
+@media all and (max-width: 469px) {
+    .profilePicture {
+        width: 95%;
+    }
+}

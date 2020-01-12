@@ -103,6 +103,13 @@
     }
 }
 
+@media all and (max-width: 569px) {
+    .skills div div {
+        padding: unset;
+        margin: unset;
+    }
+}
+
 @media all and (max-width: 505px) {
     .kois {
         display: none;
@@ -140,7 +147,7 @@
         line-height: normal;
     }
 
-    article, .profilePictureContainer, .resumen, .resumenText, .articles, .projectImg, .projectResume {
+    article, .profilePictureContainer, .resumen, .resumenText, .articles, .projectImg, .projectResume, .skills div {
         margin: unset;
         padding: unset;
     }
@@ -154,6 +161,15 @@
     }
 
     .project {
+        display: block;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .contactInfoContainer p:nth-child(2) {
+        display: none;
+    }
+    .contactIconContainer .contactIcon:nth-child(4) {
         display: block;
     }
 }
