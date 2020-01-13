@@ -84,6 +84,7 @@ a, .burgerIcon {
 #content {
     background-color: #3E3E40;
     width: 60%;
+    overflow: visible;
 }
 
 .principalText {
