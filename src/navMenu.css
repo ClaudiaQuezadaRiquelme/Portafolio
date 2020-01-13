@@ -1,6 +1,6 @@
 .menu {
     position: sticky;
-    position: -webkit-sticky;
+    -webkit-position: sticky;
     top: 0; /* required */
     z-index: 5;
 }

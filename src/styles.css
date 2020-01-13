@@ -84,7 +84,7 @@ a, .burgerIcon {
 #content {
     background-color: #3E3E40;
     width: 60%;
-    overflow: visible;
+    overflow: visible; /* no permite que sticky en safari funcione */
 }
 
 .principalText {
