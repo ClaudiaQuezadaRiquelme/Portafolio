@@ -1,8 +1,33 @@
+.openBurgerMenu {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0; /* required */
+    z-index: 5;
+    background-color: #8C0327;
+    margin: unset;
+    padding: 15px;
+    padding-left: unset;
+    padding-right: unset;
+}
+
+.openBurgerMenu a, .openBurgerMenu span {
+    padding: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: unset;
+    transition: all 2.5s ease-out;
+    -webkit-transition: all 2.5s ease-out;
+}
+
+.openBurgerMenu a:hover, .openBurgerMenu span:hover, .openBurgerMenu a:active, .openBurgerMenu span:active {
+    background-color: #d81143;
+}
+
 .burgerMenu {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 5; /* z-index of navMenu */
     top: 0; /* Stay at the top */
     left: 0;
     background-color: #111; /* Black*/
@@ -35,4 +60,8 @@
 @media screen and (max-height: 450px) {
     .burgerMenu {padding-top: 15px;}
     .burgerMenu ul li {font-size: 18px;}
+}
+
+@media all and (max-width: 440px) {
+    .menu { display: none;}
 }
