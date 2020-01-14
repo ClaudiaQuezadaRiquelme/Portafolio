@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./src/projectPictureAnimation-mobile.css">
     <link rel="stylesheet" href="./src/buttons.css">
     <link rel="stylesheet" href="./src/buttons-mobile.css">
+    <link rel="stylesheet" href="./src/stickyClass.scss">
      
 </head>
 <body>
@@ -53,10 +54,10 @@
                 <h1 class="principalTitle">CLAUDIA QUEZADA</h1>
                 <h3 class="principalPhrase">Frontend Developer</h3>
             </header>
-            <span class="openBurgerMenu">
+            <span id="myOpenBurgerMenu" class="openBurgerMenu">
                 <a href="#"><i class="fas fa-fish"></i></a>
                 <span class="burgerIcon" onclick="openNav()"><i class="fas fa-bars"></i></span>
-            </span>
+            </span id="myBurgerMenu">
             <nav id="myBurgerMenu" class="burgerMenu">
                 <ul>
                     <li><a class="closeBurgerMenu" href="javascript:void(0)" onclick="closeNav()">&times;</a></li>
@@ -67,7 +68,7 @@
                     <li><a href="#Contacto">Contacto</a></li>
                 </ul>
             </nav>
-            <nav class="menu">
+            <nav id="myMenu" class="menu">
                 <ul>
                     <li><a href="#"><i class="fas fa-fish"></i></a></li>
                     <li><a href="#Perfil">Perfil</a></li>
@@ -75,7 +76,7 @@
                     <li><a href="#Proyectos">Proyectos</a></li>
                     <li><a href="#Contacto">Contacto</a></li>
                 </ul>
-            </nav>
+            </nav id="myBurgerMenu">
             <div id="Perfil" class="navigation">
                 <section class="presentation">
                     <div class="profilePictureContainer">
@@ -255,5 +256,6 @@
     
     <script src="./src/koiAnimation.js"></script>
     <script src="./src/navBurgerMenuAnimation.js"></script>
+    <script src="./src/stickyAnimation.js"></script>
 </body>
 </html>

@@ -1,0 +1,10 @@
+.sticky { /* 'position: -webkit-sticky' in Safari doesn't work in all cases */
+    position: fixed;
+    top: 0;
+    padding: unset;
+    width: inherit;
+
+    // .stickyBurger {
+    //     // width: ;
+    // }
+}
