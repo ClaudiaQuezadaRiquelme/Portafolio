@@ -2,5 +2,11 @@
     position: fixed;
     top: 0;
     padding: unset;
-    /* width: inherit; */
+    width: inherit;
+}
+
+@media all and (max-width: 440px) {
+    .sticky {
+        width: initial;
+    }
 }

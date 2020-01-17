@@ -166,6 +166,10 @@
 }
 
 @media all and (max-width: 400px) {
+    .contactIconContainer {
+        text-align: right;
+    }
+
     .contactInfoContainer p:nth-child(2) {
         display: none;
     }

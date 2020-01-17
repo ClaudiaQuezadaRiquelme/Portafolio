@@ -53,7 +53,7 @@ a, .burgerIcon {
     padding-right: unset;
 }
 
-.cherryBlossomContainer, .cherryBlossom, #content, .profilePictureContainer .fog, .profilePicture, .projectImg, .projectImgContainer, .pImg, .pImgColor, footer, .menu, .contactIcon, .link, .contactText, .menu ul, .menu ul li a i, .burgerMenu {
+.cherryBlossomContainer, .cherryBlossom, #content, .profilePictureContainer .fog, .profilePicture, .projectImg, .projectImgContainer, .pImg, .pImgColor, footer, .menu, .contactIcon i, .link, .contactText, .menu ul, .menu ul li a i, .burgerMenu {
     padding: unset;
     margin: unset;
 }
